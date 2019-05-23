@@ -52,5 +52,5 @@ jobs:
             mkdir -p test-reports/pytest
             pytest -v tests > test-reports/pytest/results.txt
 
-      - store_test_results
+      - store_test_results:
           path: test-reports
