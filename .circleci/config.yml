@@ -48,5 +48,6 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
+            pip install -r tests/requirements.txt
             pytest -v tests
 
